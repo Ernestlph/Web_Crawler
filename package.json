@@ -1,0 +1,23 @@
+{
+  "name": "web_crawler",
+  "version": "1.0.0",
+  "description": "web_crawler to learn https",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ernestlph/Web_Crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ernestlph/Web_Crawler/issues"
+  },
+  "homepage": "https://github.com/Ernestlph/Web_Crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
