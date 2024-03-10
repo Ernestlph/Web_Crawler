@@ -30,10 +30,10 @@ test(`getURLsFromHTML`, () => {
     </html>
     `
     expect(getURLsFromHTML(htmlBody)).toEqual([
-        'example.com/path',
-        'example.com/path/page1',
-        'example.com/path/page2',
-        'example.com/path/page3',
+        'https://www.example.com/path/',
+        'https://www.example.com/path/page1',
+        'https://www.example.com/path/page2',
+        'https://www.example.com/path/page3',
     ])
 
 
