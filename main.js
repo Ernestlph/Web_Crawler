@@ -1,5 +1,6 @@
 const { argv } = require('node:process');
 const { crawlPage } = require('./crawl');
+const { printReport } = require('./report');
 
 
 // for the main fucntion, If the number of CLI arguments is less than 1, print an error and exit.
@@ -21,15 +22,11 @@ async function main() {
 
     let pages = {}
     pages = await crawlPage(baseURL, baseURL, pages)
-    //const entries = Object.entries(pages)
 
-
-    //for (const [key, value] of entries) {
-    //    console.log(`This is part of main: ${key}: ${value}`)
-    // }
-    console.log(pages)
+    printReport(pages)
 
 }
+
 
 main()
 
