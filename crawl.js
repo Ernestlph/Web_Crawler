@@ -85,7 +85,7 @@ async function crawlPage(baseURL, currentURL, pages) {
 }
 
 
-
+// This part module.exports is used to export the functions and variables defined in the crawl.js file.
 
 module.exports = {
     normalizeURL,
